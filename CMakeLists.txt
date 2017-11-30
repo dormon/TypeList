@@ -52,4 +52,4 @@ list(APPEND ${LIB_NAME}_EXTERNAL_LIBRARIES_TO_FIND )
 #This variable contains compilation options for this library
 set(${LIB_NAME}_COMPILATION_OPTION )
 
-include(libraryExports.cmake)
+include(CMakeLibrary/libraryExports.cmake)
